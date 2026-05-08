@@ -31,6 +31,3 @@ https://cover-letter-generation.netlify.app/
 
 This project was built with a frontend-first approach while keeping the implementation simple, clean, and user friendly.
 
-
-
-Pranitha
