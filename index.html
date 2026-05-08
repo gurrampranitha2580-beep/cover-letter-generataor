@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cover Letter Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+<h2>Cover Letter Generator</h2>
+
+<div class="form">
+<input type="text" id="name" placeholder="Your Name">
+<input type="text" id="role" placeholder="Job Role">
+<input type="text" id="company" placeholder="Company Name">
+<textarea id="skills" placeholder="Your Skills"></textarea>
+
+<button id="generateBtn">Generate Letter</button>
+</div>
+
+<div id="outputBox" class="hide">
+<h3>Generated Letter</h3>
+<textarea id="result" readonly></textarea>
+<button id="copyBtn">Copy</button>
+</div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
